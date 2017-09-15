@@ -24,6 +24,12 @@
             android:background="@drawable/gradient_background"
             android:visibility="invisible" />
 
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:scaleType="centerCrop"
+            android:src="@mipmap/home_background" />
+
         <RelativeLayout
             android:id="@+id/lnLight"
             android:layout_width="wrap_content"
@@ -37,6 +43,7 @@
                 android:layout_height="wrap_content"
                 android:background="@android:color/transparent"
                 android:contentDescription="@string/app_name"
+                android:rotation="180"
                 android:src="@mipmap/ic_light" />
 
         </RelativeLayout>
